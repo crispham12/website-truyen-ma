@@ -81,7 +81,7 @@ const BestStories = () => {
 
       <div className="flex justify-center">
         <button className="flex items-center gap-2 border border-gray-700 hover:border-white text-gray-300 hover:text-white px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider transition-all">
-          Xem Thêm Nghi Lễ <ChevronDown size={16} />
+          Xem Thêm Truyện <ChevronDown size={16} />
         </button>
       </div>
     </div>

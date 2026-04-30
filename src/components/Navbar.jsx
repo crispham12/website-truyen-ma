@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 bg-black/80 backdrop-blur-md px-8 py-4 flex justify-between items-center transition-all duration-300 border-b border-gray-900">
       <div className="flex items-center gap-8">
         <Link to="/" className="text-blood-red font-cinematic text-3xl font-bold tracking-widest uppercase">
-          Eldritch
+          CrisStory
         </Link>
         <div className="hidden md:flex gap-6 text-sm font-semibold uppercase tracking-wider text-gray-400">
           <Link to="/" className="text-blood-red transition-colors border-b-2 border-blood-red pb-1">Trang Chủ</Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" size={18} />
           <input 
             type="text" 
-            placeholder="Tìm kiếm trong hư vô..." 
+            placeholder="Tìm kiếm truyện..." 
             className="bg-dark-gray border border-gray-800 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:border-blood-red focus:ring-1 focus:ring-blood-red transition-all text-white placeholder-gray-500"
           />
         </div>

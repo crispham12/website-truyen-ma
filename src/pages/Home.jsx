@@ -32,11 +32,11 @@ const Home = () => {
       <section className="px-8 py-16 max-w-7xl mx-auto">
         <div className="flex justify-between items-end mb-8">
           <div>
-            <h2 className="text-3xl font-cinematic font-bold mb-2">Các Hiện Tượng Mới Nhất</h2>
-            <p className="text-gray-400 text-sm italic">Những Cơn Ác Mộng Mới Từ Vực Thẳm.</p>
+            <h2 className="text-3xl font-cinematic font-bold mb-2">Truyện Mới Cập Nhật</h2>
+            <p className="text-gray-400 text-sm italic">Thưởng thức những tác phẩm kinh dị audio xuất sắc nhất.</p>
           </div>
           <button className="text-blood-red text-sm uppercase font-bold hover:text-white transition-colors">
-            Vào Kho Lưu Trữ →
+            Xem Tất Cả →
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -83,7 +83,7 @@ const Home = () => {
                       <span>⏱ 45m</span>
                     </div>
                     <button className="w-full bg-black/80 hover:bg-blood-red text-white py-3 text-xs font-bold uppercase tracking-widest border border-gray-800 hover:border-blood-red transition-all">
-                      Triệu Hồi Truyện
+                      Nghe Ngay
                     </button>
                   </div>
                 </div>
@@ -98,10 +98,10 @@ const Home = () => {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1505635552518-3448ff116af3?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
         <div className="max-w-7xl mx-auto relative z-10 flex justify-center">
           <div className="bg-dark-gray/80 backdrop-blur-sm border-l-4 border-blood-red p-10 max-w-2xl w-full text-center">
-            <p className="text-blood-red text-xs font-bold tracking-widest uppercase mb-4">Sắp Phát Sóng</p>
-            <h3 className="text-5xl font-cinematic font-bold uppercase italic mb-6">Nghi Lễ Nửa Đêm</h3>
+            <p className="text-blood-red text-xs font-bold tracking-widest uppercase mb-4">Sắp Ra Mắt</p>
+            <h3 className="text-5xl font-cinematic font-bold uppercase italic mb-6">Truyện Mới Nửa Đêm</h3>
             <p className="text-gray-400 text-sm mb-8 leading-relaxed italic">
-              Vụ thu hoạch này cần nhiều hơn là lúa mì. Mùa này, sự im lặng là nơi trú ẩn duy nhất của bạn.
+              Đón chờ những câu chuyện kinh dị mới sắp được phát hành trên nền tảng.
             </p>
             <div className="flex justify-center gap-8 mb-8">
               <div className="text-center">
@@ -118,7 +118,7 @@ const Home = () => {
               </div>
             </div>
             <button className="bg-white text-black hover:bg-gray-200 px-8 py-3 font-bold uppercase tracking-wider text-sm transition-colors">
-              Lưu Trước Truyện
+              Nhận Thông Báo
             </button>
           </div>
         </div>

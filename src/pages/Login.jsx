@@ -10,25 +10,25 @@ const Login = () => {
       
       <div className="relative z-10 w-full max-w-md p-8 bg-black/80 backdrop-blur-md border border-gray-900 rounded shadow-2xl">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-cinematic font-bold text-white mb-2 tracking-tight">Mừng Trở Lại</h1>
-          <p className="text-blood-red text-xs font-bold uppercase tracking-[0.2em]">Chuẩn bị nghi lễ của bạn</p>
+          <h1 className="text-5xl font-cinematic font-bold text-white mb-2 tracking-tight">Đăng Nhập</h1>
+          <p className="text-blood-red text-xs font-bold uppercase tracking-[0.2em]">Chào mừng trở lại!</p>
         </div>
 
         <form className="space-y-6">
           <div>
             <label className="block text-gray-400 text-xs font-bold uppercase tracking-wider mb-2">
-              Dấu Ấn Linh Hồn (Email)
+              Email
             </label>
             <input 
               type="email" 
-              placeholder="tu-si@huvu.com"
+              placeholder="email@example.com"
               className="w-full bg-dark-gray border border-gray-800 text-white px-4 py-3 focus:outline-none focus:border-blood-red transition-colors"
             />
           </div>
 
           <div>
             <label className="block text-gray-400 text-xs font-bold uppercase tracking-wider mb-2">
-              Chìa Khóa Ẩn (Mật Khẩu)
+              Mật Khẩu
             </label>
             <input 
               type="password" 
@@ -43,7 +43,7 @@ const Login = () => {
               <span>Giữ kết nối</span>
             </label>
             <Link to="#" className="text-blood-red hover:text-red-400 transition-colors uppercase tracking-wider font-bold">
-              Quên Tâm Trí?
+              Quên Mật Khẩu?
             </Link>
           </div>
 
@@ -51,17 +51,17 @@ const Login = () => {
             type="button" 
             className="w-full bg-blood-red hover:bg-red-800 text-white py-4 text-sm font-bold uppercase tracking-[0.2em] transition-all hover-glow-red mt-4"
           >
-            Bước Vào Hư Vô
+            Đăng Nhập Ngay
           </button>
         </form>
 
         <div className="mt-8 pt-8 border-t border-gray-900 text-center">
-          <p className="text-gray-500 text-xs italic mb-4">Mới đến với cơn ác mộng?</p>
+          <p className="text-gray-500 text-xs italic mb-4">Chưa có tài khoản?</p>
           <Link 
             to="/register" 
             className="block w-full border border-gray-700 hover:border-blood-red text-gray-300 hover:text-white py-3 text-xs font-bold uppercase tracking-[0.1em] transition-colors"
           >
-            Triệu Hồi Tài Khoản
+            Đăng Ký Ngay
           </Link>
         </div>
       </div>
