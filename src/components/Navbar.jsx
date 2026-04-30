@@ -9,10 +9,9 @@ const Navbar = () => {
           Eldritch
         </Link>
         <div className="hidden md:flex gap-6 text-sm font-semibold uppercase tracking-wider text-gray-400">
-          <Link to="#" className="hover:text-blood-red transition-colors border-b-2 border-transparent hover:border-blood-red pb-1">Nghi Lễ</Link>
+          <Link to="/" className="text-blood-red transition-colors border-b-2 border-blood-red pb-1">Trang Chủ</Link>
           <Link to="#" className="hover:text-blood-red transition-colors border-b-2 border-transparent hover:border-blood-red pb-1">Thể Loại</Link>
-          <Link to="#" className="text-blood-red transition-colors border-b-2 border-blood-red pb-1">Truyện Hay</Link>
-          <Link to="#" className="hover:text-blood-red transition-colors border-b-2 border-transparent hover:border-blood-red pb-1">Kiểm Tra Tâm Trí</Link>
+          <Link to="/best-stories" className="hover:text-blood-red transition-colors border-b-2 border-transparent hover:border-blood-red pb-1">Truyện Hay</Link>
         </div>
       </div>
       <div className="flex items-center gap-6">
@@ -24,9 +23,14 @@ const Navbar = () => {
             className="bg-dark-gray border border-gray-800 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:border-blood-red focus:ring-1 focus:ring-blood-red transition-all text-white placeholder-gray-500"
           />
         </div>
-        <button className="bg-blood-red hover:bg-red-800 text-white px-4 py-2 text-sm font-bold uppercase tracking-wider rounded transition-colors flex items-center gap-2">
-          Tài Khoản
-        </button>
+        <div className="flex items-center gap-4">
+          <Link to="/login" className="text-gray-300 hover:text-white text-sm font-bold uppercase tracking-wider transition-colors">
+            Đăng Nhập
+          </Link>
+          <Link to="/register" className="bg-blood-red hover:bg-red-800 text-white px-4 py-2 text-sm font-bold uppercase tracking-wider rounded transition-colors">
+            Đăng Ký
+          </Link>
+        </div>
       </div>
     </nav>
   );

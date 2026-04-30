@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -11,8 +12,6 @@
 
   --background-image-forest-dark: url('/dark-forest.jpg');
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;700&display=swap');
 
 body {
   @apply bg-horror-black text-white m-0 p-0 font-sans;
